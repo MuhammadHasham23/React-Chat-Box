@@ -1,0 +1,38 @@
+.container{
+	margin:0;
+	padding:0;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.inner{
+	margin-top:8%;
+	margin-left:12%;
+	background-color: black;
+	width:60%;
+	border:1px solid white;
+	border-radius:3%;
+	padding-bottom:5%;
+	background-color:#d3d3d3;
+}
+h2{
+	text-align:center;
+	color:black;
+	margin-top:10%;
+}
+.login-text{
+	font-size:4em;
+}
+
+.btns{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#google{
+	margin-top:6%;
+	color:black;
+}
+#email{
+	color:black;
+}

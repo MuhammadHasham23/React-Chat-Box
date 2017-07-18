@@ -1,0 +1,61 @@
+.li-box{
+	margin:10% auto;
+	width:70%;
+	background-color:white;
+	height:100%;
+	margin-top:4%;
+	border:1px solid black;
+	border-radius:4%;
+	overflow-x:scroll;
+	box-shadow: 3px 2px 3px 2px;
+}
+img{
+	margin-top:2%;
+	margin-left:2%;
+	width:30px;
+	height:30px;
+	border:1px solid black;
+	border-radius:50%;
+}
+li{
+	margin-left:15%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+.outer{
+	cursor:pointer;
+	margin-top:10%;
+	margin-left:10%;
+	background: #06beb6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #48b1bf, #06beb6);
+    background: -o-linear-gradient(right, #48b1bf, #06beb6);
+    background: linear-gradient(to left, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border:1px solid mistyrose;
+	height:40em;
+	display:block;
+	border-radius: 1%;
+	overflow-y:scroll;
+}
+.form-control{
+	margin-top:2%;
+	padding:1%;
+	width:30em;
+	font-size:1.8em;
+	margin-left: 6%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+label{
+	font-size:3em;
+	margin-left:35%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#submit{
+	margin-left:35%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#logout{
+	margin-left:15%;
+	font-family: 'Roboto Condensed', sans-serif;
+}

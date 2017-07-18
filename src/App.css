@@ -1,0 +1,30 @@
+body{
+  background: #134E5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+  font-size:7em;
+  color:white;
+  margin-top: 10%;
+  margin-left:10%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.btns{
+  display:flex;
+  width:70%;
+ display:flex;
+ margin-left:10%;
+ font-family: 'Roboto Condensed', sans-serif;
+ }
+ #login{
+  margin-top:10%;
+  align-self:stretch;
+  font-family: 'Roboto Condensed', sans-serif;
+ }
+ #signup{
+  margin-top:3%;
+  align-self:stretch;
+  font-family: 'Roboto Condensed', sans-serif;
+ }
