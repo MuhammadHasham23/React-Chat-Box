@@ -30,7 +30,7 @@ signIn = ()=>{
   // Handle Errors here.
   var errorCode = error.code;
   var errorMessage = error.message;
-  this.setState({flag:false});
+  alert('Invalid Details Entered');
   // ...
 });
   if (this.state.flag) this.props.history.push("/login/googleauth/"+this.state.email);
